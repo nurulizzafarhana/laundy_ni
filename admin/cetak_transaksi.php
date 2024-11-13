@@ -109,8 +109,9 @@ $kembalian = $dibayar - $total_harga;
                     <td class="fw-bold fs-6"><?= $data_detail_transaksi['nama'] ?></td>
                 </tr>
                 <tr>
-                    <td class="col-lg-4 fw-bold text-muted">Status Pembayaran</td>
-                    <td class="fw-bold fs-6"><?= $data_detail_transaksi['dibayar'] ?></td>
+                    <td class="col-lg-4 fw-bold text-muted">Nominal Pembayaran</td>
+                    <td class="fw-bold fs-6"><?= 'Rp ' . number_format($data_detail_transaksi['dibayar'], 0, ',', '.') ?></td>
+
                 </tr>
                 <tr>
                     <td class="col-lg-4 fw-bold text-muted">Status Order</td>
