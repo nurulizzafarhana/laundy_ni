@@ -85,7 +85,7 @@ License: For each use you must have a valid license purchased only from above li
 											</div>
 										</div>
 										<div class="menu-item">
-											<a class="menu-link" href="account/overview.html">
+											<a class="menu-link" href="admin/logout.php">
 												<span class="menu-bullet">
 													<span class="bullet bullet-dot"></span>
 												</span>

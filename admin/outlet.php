@@ -370,7 +370,6 @@ License: For each use you must have a valid license purchased only from above li
                                                                 <thead>
                                                                     <tr>
                                                                         <th>No</th>
-                                                                        <th>Id Outlet</th>
                                                                         <th class="d-none d-xl-table-cell">Nama Outlet</th>
                                                                         <th class="d-none d-xl-table-cell">Alamat</th>
                                                                         <th class="d-none d-xl-table-cell">Telp</th>
@@ -386,7 +385,6 @@ License: For each use you must have a valid license purchased only from above li
                                                             $no++;?>
                                                                     <tr class="text-xs font-weight-bold">
                                                                         <td class="align-middle text-left"><?=$no?></td>
-                                                                        <td class="align-middle text-left"><?=$data_outlet['id_outlet']?></td>
                                                                         <td class="align-middle text-left"><?=$data_outlet['nama']?></td>
                                                                         <td class="align-middle text-left"><?=$data_outlet['alamat']?></td> 
                                                                         <td class="align-middle text-left"><?=$data_outlet['tlp']?></td>
@@ -414,10 +412,7 @@ License: For each use you must have a valid license purchased only from above li
                                                     <div class="modal-body">
                                                     <form method="POST" action="admin/proses_tambah_outlet.php" enctype="multipart/form-data">
                                                     <section class="base">
-                                                    <div class="mb-3">
-                                                    <label for="exampleInputEmail1" class="form-label">Id Outlet</label>
-                                                    <input type="text" name="id_outlet" class="form-control">
-                                                    </div>
+                                                    
                                                     <div class="mb-3">
                                                     <label for="exampleInputEmail1" class="form-label">Nama Outlet</label>
                                                     <input type="text" name="nama" class="form-control">
